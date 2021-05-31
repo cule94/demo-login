@@ -1,0 +1,90 @@
+.LoginForm {
+  position: relative;
+  width: 30%;
+  margin-top: 15%;
+  color: #aaa6ad;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  height: 230px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.LoginForm article {
+  margin-top: 3%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.LoginForm article h1 {
+  color: #5c5b5e;
+}
+
+.LoginForm article input {
+  width: 100%;
+  height: 30px;
+  border-bottom: solid;
+  border-top: none;
+  border-left: none;
+  border-radius: 10px 10px 10px 10px;
+  font-weight: bold;
+  padding-left: 5%;
+}
+
+.LoginForm article p {
+  color: black;
+}
+
+#loginButton {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  background: -webkit-gradient(linear, left top, right top, color-stop(2%, #db2df5), color-stop(49%, #5508c1), color-stop(80%, #4800ff));
+  background: linear-gradient(90deg, #db2df5 2%, #5508c1 49%, #4800ff 80%);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px 10px 10px 10px;
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, right top, color-stop(2%, #fff8ff), color-stop(49%, #ccbce2), color-stop(80%, #c7bfdd));
+  background: linear-gradient(90deg, #fff8ff 2%, #ccbce2 49%, #c7bfdd 80%);
+}
+
+#authorizedName {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35vw;
+  height: 100px;
+  margin-top: 5%;
+  border: solid;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+}
+
+#authorizedName p {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#authorizedName #logoutButton {
+  background-color: black;
+  color: white;
+  border-radius: 10px 10px 10px 10px;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=styles.css.map */

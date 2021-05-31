@@ -1,0 +1,24 @@
+#authorizedName {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35vw;
+  height: 100px;
+  margin-top: 5%;
+  border: solid;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+
+  p {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  #logoutButton {
+    background-color: black;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+  }
+}

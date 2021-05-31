@@ -1,0 +1,50 @@
+.LoginForm {
+  position: relative;
+  width: 30%;
+  margin-top: 15%;
+  color: #aaa6ad;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  height: 230px;
+  border-radius: 10px 10px 10px 10px;
+  article {
+    h1 {
+      color: #5c5b5e;
+    }
+    margin-top: 3%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    input {
+      width: 100%;
+      height: 30px;
+      border-bottom: solid;
+      border-top: none;
+      border-left: none;
+      border-radius: 10px 10px 10px 10px;
+      font-weight: bold;
+      padding-left: 5%;
+    }
+    p {
+      color: black;
+    }
+  }
+}
+#loginButton {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  background: linear-gradient(
+    90deg,
+    rgba(219, 45, 245, 1) 2%,
+    rgba(85, 8, 193, 1) 49%,
+    rgba(72, 0, 255, 1) 80%
+  );
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px 10px 10px 10px;
+  cursor: pointer;
+}
